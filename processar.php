@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $a = $dados->a;
     $b = $dados->b;
-    $c = $dados-> c;
+    $c = $dados->c;
 
     $delta = ($b * $b) - (4 * $a * $c);
 
